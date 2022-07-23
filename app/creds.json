@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "canalserviceproject",
+  "private_key_id": "6f9b5100614e0f2d59a8b62947cb11ead36bf032",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDzepseTAvuHrwX\nUM/4I92nn1W5nKZ5iu6qDQ2/C3XaYGR6Z9xcIsknoZdce++zqANWZtPdKSmtvfZr\nJ6AuuWu/BVfpCJnIz5lUeMSaomemxPJN78ZooV838c9XXdciVXLxUSYttvFosgAD\nl/Kj7mEQFkOqmjS+pCOs6ZCrFG8yTj+jVNjouxOhro2aerrD3aAMDr6ByUJOik37\nvOnSaRplpEql3XF/3l2XYSp3Ob2rTpa/fWkNk32Ki5g1hSx01NAisQn1OE4ARJqd\nVnac3f/VWYCbOyeXBQ+EW1YxZ8/07fYQIkT9NWw67iSJChtQC1CTXP4xWmscI5Iv\nufr8LOwNAgMBAAECggEAJ6ZZOXNX5AS0S7W40GeC0qfDbZEhmRxzZlTu3qQuoovd\nAQQF4ik2CdKqVADI1cBwHrNrIBJye506UlPnJYTDk516pfPlG0sXZKawGaCF8aYT\n8XYxINvapkEmK0uYW7p/l+XHql0m7g5Cq1Mky+ZnfxepGFC5cyxGtQNqMDoJK686\nJCRMYM3kg2dGwXVH5nYmg6yD1SsjWeOKOnkLy6XXOl+mE/nRX5LWsIZrbhdg4m/g\niDQf17ToJhnmQoThydrSZjYsS4rpPEJoj/NyM2kT4wtHeZ6jpGnCuWk0vKU30pS3\nTVDI0CPLCWLQ77j6GP+8v4wBqcOOI75Zxgya/ImWvwKBgQD6xc8kapPf7kbcNiAg\nR11RstNgC8+wrnrPS8+/DlXytsLFQnQRjLQdcxn0RvlpbKHQDnRThizWS3BVdt9P\nIDEULUf0CWpVwGC5WSAI44OnWcqlk/EZmm/G9QKcY4r0E1MfXjcSitJqrqZ0EUZK\nvRE0wPpcVD6MiEVSq7WoW93LmwKBgQD4jeATPQ7oWdTB6dDpAGdiXq0dWBNwL9cr\nvYIntwXPLaqj5Yr+/El2kjs+SKaJqwRy7WsweGEUb0JNfifgyoIrpAiDp+qv9gTj\n4mfo76P6bVqTYdAikO6t428siXcYZ624GVYLJWkI1e9vEREwUX8rg7CxSvOZCFAN\nr3Kykf/FdwKBgQDeYHNkE662MRJdTRIIDcDPJgkTbuXqA4+cK9o5znihFzh4vIk4\n1tESHHOzjwy1VEPZwDefqagxEAy5fQRhomZjQhRAb+j/yez77/DccQTabmGpmxt+\nXNkqUTLTg+JAtrJLarzjkH8vY1jwLDFtLWQIp+hb38jnzh/LQ8F/Xpe8aQKBgDb8\nG8/luACKrthfA0ooPrayPxW4wEQXMUCJ4dsrT+uvLIqpYwBZi17hpp12sPDPlmJe\nR1Inr0I4ArDl8ah25CkHVqLZaL+YayiGk3oiWWIzAtCL2OFssoBhSdzOZDxP40xQ\nvooksoGz4g3t9qF7xeg4b8Qo0o7OGfeNEpCSX8StAoGBAO1CCOFxuymbVe99mVaG\nqumcLdajniut7iGA3Rymu7ZYsvOJNcxXz4uiRNaWsqMifcNmOUWDJxZZuVdr6onO\nckTZzcu3rX2KHXaDRQdpJ7WsLrSusJqIpf7Ip4NYHHlXAJCDRCjw/o3HW3LsCZU2\nD0aR+RDctNzPeTeli4m/pzkY\n-----END PRIVATE KEY-----\n",
+  "client_email": "paul-account@canalserviceproject.iam.gserviceaccount.com",
+  "client_id": "110573524867784196845",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/paul-account%40canalserviceproject.iam.gserviceaccount.com"
+}

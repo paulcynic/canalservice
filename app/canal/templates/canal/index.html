@@ -1,0 +1,35 @@
+{% extends 'canal/base.html' %}
+
+{% block content %}
+        <div className="container">
+            <div className="row">
+                <h2>Canal Orders</h2>
+            </div>
+            <div className="row">
+                <table className="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">№</th>
+                            <th scope="col">заказ №</th>
+                            <th scope="col">стоимость,$</th>
+                            <th scope="col">стоимость в руб.</th>
+                            <th scope="col">срок поставки</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in items %}
+                        <tr>
+                            <th scope="row">{{ item.number }}</th>
+                            <td>{{ item.order_id }}</td>
+                            <td>{{ item.price_usd }}</td>
+                            <td>{{ item.price_rub }}</td>
+                            <td>{{ item.delivery_date|date:'d.m.Y' }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table> 
+            </div>
+            
+            <hr />
+        </div>
+{% endblock %}
