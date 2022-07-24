@@ -24,6 +24,6 @@ def orders(request):
             serializer = OrderSerializer(instance, data=order, partial=True)
             if serializer.is_valid(raise_exception=True):
                 serializer.save()
-        return Response(status=HTTP_200_OK)
+        return Response(orders, status=HTTP_200_OK)
     else:
         return Response(status=HTTP_405_METHOD_NOT_ALLOWED)

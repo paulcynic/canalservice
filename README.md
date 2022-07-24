@@ -61,9 +61,21 @@ If everything is "OK", then
 
 After the application starts, navigate to `http://localhost:8000` in your web browser:
 
-## After usage:
-
 Stop and remove the containers
 ```
 $ docker-compose down
 ```
+
+## Link to googleSheetsAPI
+```
+https://docs.google.com/spreadsheets/d/1jupyBDOGP8xpNYsdDhtyucU_zm3bh6NMyK_vZRTabYQ/edit?usp=sharing
+```
+## Automatization with Cron job which make api request every minute 
+```
+curl http://backend:8000/api/orders/
+```
+## ISSUE
+
+GoogleAPI doesn't work from docker container.
+I can run app on my local PC and it's OK.
+But inside container I get eternal loading.

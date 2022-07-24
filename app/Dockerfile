@@ -19,8 +19,5 @@ RUN pip3 install -r /app/requirements.txt --no-cache-dir && \
 
 ENV PYTHONPATH=/app
 
-#RUN python3 manage.py makemigrations
-#RUN python3 manage.py migrate
-
-ENTRYPOINT ["python3"] 
-CMD ["manage.py", "runserver", "0.0.0.0:8000"]
+#ENTRYPOINT ["python3"] 
+#CMD ["manage.py", "runserver", "0.0.0.0:8000"]

@@ -1,16 +1,25 @@
 version: "3"
 services:
+#==============CRON=AUTOMATIZATION=========================================
+  cron:
+    build:
+      context: ./cron
+      dockerfile: Dockerfile
+    depends_on:
+      - backend
+    ports:
+      - "9000:80"
 #==============POSTGRES=DATABASE===========================================
   db:
     image: postgres:14  # https://hub.docker.com/_/postgres
     ports:
-      - "5433"
+      - "5433:5432"
     volumes:
       - app-db-data:/var/lib/postgresql/data/pgdata
     environment:
       - PGDATA=/var/lib/postgresql/data/pgdata
       - POSTGRES_SERVER=db
-      - POSTGRES_USER=root
+      - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=canal
       - POSTGRES_DB=canal
 #==============CANAL=BACKEND=============================================
@@ -18,16 +27,18 @@ services:
     build:
       context: ./app
       dockerfile: Dockerfile
+    command: python manage.py runserver 0.0.0.0:80
+    volumes:
+      - ./app:/app
     depends_on:
       - db
     environment:
       - DATABASE_HOST=db
-      - DATABASE_USER=root
+      - DATABASE_USER=postgres
       - DATABASE_PASSWORD=canal
       - DATABASE_NAME=canal
     ports:
-      - "8000:8000"
-      - "443:443"
+      - "8000:80"
 
 #===============VOLUMES====================================================
 volumes:

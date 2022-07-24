@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "canalserviceproject",
+  "private_key_id": "6a76bc7d376a03e367114aaf9b4a6886255e7dc8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCR/bWdDxsJqidP\nC1i43tVYbt/ErbEZhtKgVdeCABb4zU0wBdURA+jz2Jgu2akPf6mCkv5MdAt2ZXiO\nB83OncNMI5Ryskoum43DTSV0/fdg7mgE7G6C3xOl13FAlpITJDCFNg4DaifIXSTm\nwMim0g5se9StyZ+0zZ4A8x/XMjqaqpwCWOPD6GFPq+wFR/U8QVi7HFHH8JckPFtZ\nY/ld+YRCrIdWZVZ/kH3KKJvGyYx0OCLhAhYncLtQflIay8bF1C/q4Sg+ElKfbmQn\nX3g87f4Deb83aaXqhEhHu8aS4CEB0SjtyXUx2SEXcjYuZPZWdX/McnX1SR7UgV8q\nfbbdMSpXAgMBAAECggEAGL2w4hGVyPEDoWMwYYAuEsMTfA7dhRBysIZrs9XVDswo\nKRvL7IrHl0+dFs9/VaeScBT+MLG34ZQ3toY/DCVzW/tppHhvlu94umDgGLATlONC\nUJdK8TXh7AiTYllCHylSabjr7gs2+79BSjPgrVjK5fqkY+FYBfmUrd+GBV+3S8+d\nf63IMBBT9OHZ2XxgdVMCXPxiW4QBtbFUhReX1uBhjD2rgyJ0blGKqAB/xVENAAUm\nQE+iDinMp5Tttdq7nsUCANaFZxDpnhh14bdvYlm6mCjMmtAdoX4qGZIbLqj/sKYA\nWCp1W6QPFyTh9I+bL37o4t3cJDGVbNYF6/JZ8C06gQKBgQDFXkYGqcCJO9Ybqp3r\nt+jvJXuGASqWegfW0B3TKg+s50AW/LYGHSHhSlZtwrjGDsbVf/NNOhe8FgERWLX5\nFoigdbwGudTvtYzSdOPoizmzH1gLTALFaR5lGo/KoDfXAgC+xA6MQ6LCc89/+NxN\nFBAlX/YyLDubPU6MNH/ljgHv1wKBgQC9XDu16PHH5E+6rgd+MHIYy74nOljbktII\nlsdJNz0wscYVlez1Y9mqZa3hxayp1hIiyNFrIbJReNkTYOjVlzeJGXb/V/RNsj/L\n2OA9TvUTGix+1XQeyGseFfHTBGmzkBmY5GPZ421WateS2jXE7ZJBqYPWHUJaN++V\nIZJox2VJgQKBgF9Vci21wTKInJswhqddZj5dtJS963xT5YV1cXKWVowGB4cS+jlp\nyPuxlJ3f+LByYsitzS/4Z46KcmmWmA+BOu2G8ROun5RJ9YOSwqOI3I4RDc4nIQ+J\n/wyHD/2n9lD8vq9mtEA8S1nx5sDBzGfO0R28hIcnpoMN0esXUM/pEDZxAoGAIAdS\nvjEZfDL83VmEQO7WzaTgk+gFkZYi2nsOWC70taDMHWiPfO4Xqf+qyo5R5yQjSyjm\naxV3ANrM9L8mgsIiDZl2DDiHRQEKU2NqglQxlbqOniFik7ZYj+0sSwHrEwkjmz2+\nOeOC4eQOdHNeNuHsJBkVCIlIaNQfPP1Bs2FOm4ECgYA/PyMjJxkfxRIwalujBQnu\nXlus2VrTwKcu5n8U+iIl3HQjMEhs2A2q0JnwjwPg4UKWOypD05g2dyOlfhjBFFCc\nO9BW83/mlpO61H68n2OP4Dcu1XQzukovDmO5JczrzInXi+HJ2BC+8KLPlSFGw+rc\nR4qlrw3TFeUJKc05h8EIzQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "docker@canalserviceproject.iam.gserviceaccount.com",
+  "client_id": "101853057307912088676",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/docker%40canalserviceproject.iam.gserviceaccount.com"
+}

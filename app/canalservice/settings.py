@@ -81,18 +81,18 @@ DATABASES = {
         'NAME': os.getenv('DATABASE_NAME'),
         'USER': os.getenv('DATABASE_USER'),
         'PASSWORD': os.getenv('DATABASE_PASSWORD'),
-        'PORT': '',
+        'PORT': os.getenv('DATABASE_PORT'),
     }
 }
 
 #DATABASES = {
 #    'default': {
 #        'ENGINE': 'django.db.backends.postgresql',
-#        'HOST': '',
+#        'HOST': '127.0.0.1',
 #        'NAME': 'canal',
-#        'USER': 'fedora',
-#        'PASSWORD': 'fedora',
-#        'PORT': '',
+#        'USER': 'postgres',
+#        'PASSWORD': 'canal',
+#        'PORT': 5433,
 #    }
 #}
 

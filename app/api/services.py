@@ -1,6 +1,3 @@
-#  pip install --upgrade google-api-python-client oauth2client
-from __future__ import print_function
-
 import httplib2
 from oauth2client.service_account import ServiceAccountCredentials
 from googleapiclient.discovery import build
@@ -22,7 +19,7 @@ SCOPES = ['https://www.googleapis.com/auth/spreadsheets',
 # The ID and range of a sample spreadsheet.
 SAMPLE_SPREADSHEET_ID = '1jupyBDOGP8xpNYsdDhtyucU_zm3bh6NMyK_vZRTabYQ'
 SAMPLE_RANGE_NAME = 'A2:D1000'
-CREDENTIALS_FILE = 'creds.json'
+CREDENTIALS_FILE = '/app/creds.json'
 
 
 def fetch_data():
